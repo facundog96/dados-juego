@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="integrador-v1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/integrador-v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/integrador-v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="calcularpuntaje.cpp" />
+		<Unit filename="funciones.h" />
+		<Unit filename="interfaz.cpp" />
+		<Unit filename="juego.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainmenu.cpp" />
+		<Unit filename="reglas.cpp" />
+		<Unit filename="tirardados.cpp" />
+		<Unit filename="titulo.cpp" />
+		<Unit filename="unjugador.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
