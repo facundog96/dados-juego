@@ -52,7 +52,7 @@ int mainMenu(){
             stgame = unJugador();
             break;
         case 1:
-            stgame = 2;
+            stgame = dosJugadores();
             break;
         case 2:
             stgame = 2;

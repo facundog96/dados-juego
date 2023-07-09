@@ -13,13 +13,15 @@ int unJugador() {
     std::cin >> nombre;
     rlutil::cls();
 
+    int numRondas = ingresarRondas();
+
     int ronda = 1;
     int puntajeTotal = 0;
     int dados[6] = {0};
     int maxRonda = 0;
     bool primerLanzamiento = true;
 
-while (puntajeTotal < 500) {
+while (puntajeTotal < 500 || ronda < numRondas) {
     maxRonda = 0;
     for (int lanzamiento = 1; lanzamiento <= 3; lanzamiento++) {
         if (primerLanzamiento) {

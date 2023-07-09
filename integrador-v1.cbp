@@ -32,11 +32,14 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="calcularpuntaje.cpp" />
+		<Unit filename="dosjugadores.cpp" />
 		<Unit filename="funciones.h" />
+		<Unit filename="ingresarRondas.cpp" />
 		<Unit filename="interfaz.cpp" />
 		<Unit filename="juego.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="mainmenu.cpp" />
+		<Unit filename="proxturno.cpp" />
 		<Unit filename="reglas.cpp" />
 		<Unit filename="tirardados.cpp" />
 		<Unit filename="titulo.cpp" />

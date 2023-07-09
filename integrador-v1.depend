@@ -18,15 +18,15 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1688786628 c:\users\facundo\onedrive\documentos\integrador-v1\funciones.h
+1688937341 c:\users\facundo\onedrive\documentos\integrador-v1\funciones.h
 	<string>
 
-1688788434 source:c:\users\facundo\onedrive\documentos\integrador-v1\main.cpp
+1688935625 source:c:\users\facundo\onedrive\documentos\integrador-v1\main.cpp
 	<iostream>
 	"rlutil.h"
 	"funciones.h"
 
-1688790356 source:c:\users\facundo\onedrive\documentos\integrador-v1\mainmenu.cpp
+1688934597 source:c:\users\facundo\onedrive\documentos\integrador-v1\mainmenu.cpp
 	<iostream>
 	"rlutil.h"
 	"funciones.h"
@@ -54,19 +54,33 @@
 	<cstdlib>
 	<ctime>
 
-1688787882 source:c:\users\facundo\onedrive\documentos\integrador-v1\interfaz.cpp
-	<iostream>
-	<sstream>
-	"rlutil.h"
-	"funciones.h"
-
-1688789708 source:c:\users\facundo\onedrive\documentos\integrador-v1\unjugador.cpp
+1688935366 source:c:\users\facundo\onedrive\documentos\integrador-v1\interfaz.cpp
 	<iostream>
 	"rlutil.h"
 	"funciones.h"
 
-1688788015 source:c:\users\facundo\onedrive\documentos\integrador-v1\calcularpuntaje.cpp
+1688937560 source:c:\users\facundo\onedrive\documentos\integrador-v1\unjugador.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1688933052 source:c:\users\facundo\onedrive\documentos\integrador-v1\calcularpuntaje.cpp
 	<iostream>
 	<vector>
+	"funciones.h"
+
+1688937963 source:c:\users\facundo\onedrive\documentos\integrador-v1\dosjugadores.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1688936462 source:c:\users\facundo\onedrive\documentos\integrador-v1\proxturno.cpp
+	<iostream>
+	"rlutil.h"
+	"funciones.h"
+
+1688937963 source:c:\users\facundo\onedrive\documentos\integrador-v1\ingresarrondas.cpp
+	<iostream>
+	"rlutil.h"
 	"funciones.h"
 

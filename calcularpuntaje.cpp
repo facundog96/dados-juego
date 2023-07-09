@@ -6,7 +6,6 @@ PuntajeCombination calcularPuntaje(int* dados) {
     PuntajeCombination resultado;
     resultado.puntaje = 0;
 
-    // Sexteto6
     bool esSexteto6 = true;
     for (int i = 0; i < 6; i++) {
         if (dados[i] != 6) {
@@ -20,7 +19,6 @@ PuntajeCombination calcularPuntaje(int* dados) {
         return resultado;
     }
 
-    // Escalera
     bool esEscalera = true;
     for (int i = 0; i < 6; i++) {
         if (dados[i] != i + 1) {
@@ -34,7 +32,6 @@ PuntajeCombination calcularPuntaje(int* dados) {
         return resultado;
     }
 
-    // Suma de dados
     int sumaDados = 0;
     for (int i = 0; i < 6; i++) {
         sumaDados += dados[i];
@@ -42,7 +39,6 @@ PuntajeCombination calcularPuntaje(int* dados) {
     resultado.puntaje = sumaDados;
     resultado.combinacion = "SUMA DE DADOS";
 
-    // Trío X++
     int maxTrio = 0;
     for (int i = 1; i <= 6; i++) {
         int count = 0;
@@ -60,7 +56,6 @@ PuntajeCombination calcularPuntaje(int* dados) {
         resultado.combinacion = "TRIO " + std::to_string(maxTrio) + "++        ";
     }
 
-    // Sexteto X
     bool esSextetoX = true;
     int primerDado = dados[0];
     for (int i = 1; i < 6; i++) {
